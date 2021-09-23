@@ -1,0 +1,15 @@
+{
+    "name": "Ongtz",
+    "description": "test",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "ong"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

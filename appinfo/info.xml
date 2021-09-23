@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>ongtz</id>
+    <name>Ongtz</name>
+    <summary>test</summary>
+    <description><![CDATA[test]]></description>
+    <version>0.0.2</version>
+    <licence>agpl</licence>
+    <author mail="yunsong@yes.my" >ong</author>
+    <namespace>Ongtz</namespace>
+    <category>tools</category>
+    <bugs>https://www.error.winarmsolutions.com</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Ongtz</name>
+            <route>ongtz.page.index</route>
+        </navigation>
+    </navigations>
+</info>
